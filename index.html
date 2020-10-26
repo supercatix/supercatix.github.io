@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ремком Сервис</title>
-    <link rel="stylesheet" href="/css/fonts.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-    <link rel="stylesheet" href="/css/style.min.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ремком Сервис</title>
+        <link rel="stylesheet" href="/css/style.min.css">
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    </head>
 <body>
+    <!----ШАПКА САЙТА------>
     <header class="header">
         <div class="container">
             <div class="header__row">
             <a href="#" class="header__logo"><img src="/images/icons/Group.svg" alt="Ремком Сервис"></a>
             <nav class="header__nav">
                 <ul class="header__list">
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">Услуги</a></li>
-                    <li><a href="#">Объекты</a></li>
-                    <li><a href="#">Оборудования</a></li>
-                    <li><a href="#">Новости</a></li>
+                    <li><a href="/">Главная</a></li>
+                    <li><a href="/pages/service.html">Услуги</a></li>
+                    <li><a href="/pages/objects.html">Объекты</a></li>
+                    <li><a href="/pages/equipment.html">Оборудования</a></li>
+                    <li><a href="/pages/news.html">Новости</a></li>
                 </ul>
             </nav>
             <div class="header__contacts">
-                <a href="#" class="header__links">О нас</a>
-                <a href="#" class="header__links">Контакты</a>
+                <a href="/pages/ours.html" class="header__links">О нас</a>
+                <a href="/pages/contacts.html" class="header__links">Контакты</a>
             </div>
         </div>
         </div>
     </header>
+    <!-----СЛАЙДЕР--------->
     <div class="carousel">
-           <div class="container">
-            <div class="carousel__inner">
-                    <div><img class="carousel__image" src="/images/1.jpg" alt=""></div>
-           </div>
+        <div class="container">
+         <div class="carousel__inner">
+                 <div><img class="carousel__image" src="/images/1.jpg" alt="">
+                 <div class="carousel__text">Garten- und <br>
+                     Landschaftsbau</div></div>
+                 <div><img class="carousel__image" src="/images/1.jpg" alt=""></div>
+                 <div><img class="carousel__image" src="/images/1.jpg" alt=""></div>
+                 <div><img class="carousel__image" src="/images/1.jpg" alt=""></div>
+         </div>
     </div>
     </div>
+    <!---ПРЕИМУЩЕСТВА------>
     <section class="advantages">
         <div class="container">
             <h2 class="advantages__title title">Преимущества работы</h2>
@@ -44,7 +50,7 @@
                 <div class="advantages__column">
                     <div class="advantages__item item">
                         <div class="item__row">
-                            <img src="/images/icons/language_24px.svg" alt="" class="item__icon">
+                            <img src="/images/icons/language_24px.svg" alt="" class="item__icon lazy">
                             <div class="item__descr">Die Pillmeier GmbH ist ein auf Garten- und Landschaftsbau spezialisiertes Unternehmen <br> in Abensberg.</div>
                         </div>
                     </div>
@@ -52,7 +58,7 @@
                 <div class="advantages__column">
                     <div class="advantages__item item">
                         <div class="item__row">
-                            <img src="/images/icons/language_24px.svg" alt="" class="item__icon">
+                            <img src="/images/icons/language_24px.svg" alt="" class="item__icon lazy">
                             <div class="item__descr">Die Pillmeier GmbH ist ein auf Garten- und Landschaftsbau spezialisiertes Unternehmen <br> in Abensberg.</div>
                         </div>
                     </div>
@@ -60,7 +66,7 @@
                 <div class="advantages__column">
                     <div class="advantages__item item">
                         <div class="item__row">
-                            <img src="/images/icons/language_24px.svg" alt="" class="item__icon">
+                            <img src="/images/icons/language_24px.svg" alt="" class="item__icon lazy">
                             <div class="item__descr">Die Pillmeier GmbH ist ein auf Garten- und Landschaftsbau spezialisiertes Unternehmen <br> in Abensberg.</div>
                         </div>
                     </div>
@@ -68,6 +74,7 @@
             </div>
         </div>
     </section>
+    <!------ОБЪЕКТЫ-------->
     <section class="objects">
         <div class="container">
             <h2 class="objects__title title">Объекты</h2>
@@ -75,7 +82,7 @@
                 <div class="objects__column">
                     <div class="objects__card card">
                         <a href="#" class="card__row">
-                            <img src="/src/icons/square1.jpg" alt="" class="card__square">
+                            <img src="/images/icons/square1.jpg" alt="" class="card__square">
                             <div class="card__text">
                                 <div class="card__title">People Like Meghan McCain <br>
                                     Are Why Americans Keep Dying</div>
@@ -136,6 +143,7 @@
             <a href="#" class="all">Смотреть все</a>
         </div>
     </section>
+    <!------НОВОСТИ-------->
     <section class="news">
         <div class="container">
             <h2 class="news__title title">Новости</h2>
@@ -144,7 +152,7 @@
                     <div class="news__post post">
                         <a href="#" class="post__row">
                             <div class="post__image">
-                                <img src="/images/Rectangle 5-1.png" alt="">
+                                <img src="/images/Rectangle 5-1.png" class="lazy" alt="">
                             </div>
                             <div class="post__content">
                                 <div class="post__title">People Like Meghan McCain 
@@ -159,7 +167,7 @@
                     <div class="news__post post">
                         <a href="#" class="post__row">
                             <div class="post__image">
-                                <img src="/images/Rectangle 5-2.png" alt="">
+                                <img src="/images/Rectangle 5-2.png" class="lazy" alt="">
                             </div>
                             <div class="post__content">
                                 <div class="post__title">People Like Meghan McCain 
@@ -174,7 +182,7 @@
                     <div class="news__post post">
                         <a href="#" class="post__row">
                             <div class="post__image">
-                                <img src="/images/Rectangle 5-3.png" alt="">
+                                <img src="/images/Rectangle 5-3.png" class="lazy" alt="">
                             </div>
                             <div class="post__content">
                                 <div class="post__title">People Like Meghan McCain 
@@ -189,6 +197,7 @@
             <a href="#" class="all">Смотреть все</a>
         </div>
     </section>
+    <!------ОТЗЫВЫ--------->
     <section class="reviews">
         <div class="container">
             <h2 class="reviews__title title">Отзывы</h2>
@@ -246,6 +255,7 @@
             </div>
         </div>
     </section>
+    <!------ФУТЕР---------->
     <footer class="footer">
         <div class="container">
             <div class="footer__row">
@@ -254,11 +264,11 @@
                 </div>
                 <div class="footer__wrapper">
                 <ul class="footer__menu">
-                    <li><a href="#" class="footer__link">О нас</a></li>
-                    <li><a href="#" class="footer__link">Объекты</a></li>
-                    <li><a href="#" class="footer__link">Оборудования</a></li>
-                    <li><a href="#" class="footer__link">Новости</a></li>
-                    <li><a href="#" class="footer__link">Услуги</a></li>
+                    <li><a href="/pages/ours.html" class="footer__link">О нас</a></li>
+                    <li><a href="/pages/objects.html" class="footer__link">Объекты</a></li>
+                    <li><a href="/pages/equipment.html" class="footer__link">Оборудования</a></li>
+                    <li><a href="/pages/news.html" class="footer__link">Новости</a></li>
+                    <li><a href="/pages/services.html" class="footer__link">Услуги</a></li>
                     <li><a href="#" class="footer__link">Отзывы</a></li>
                 </ul>
                 <div class="footer__bottom">
@@ -270,9 +280,6 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="/src/js/script.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>
