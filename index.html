@@ -1,285 +1,356 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ремком Сервис</title>
-        <link rel="stylesheet" href="/css/style.min.css">
-        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="/css/main.min.css">
+</head>
 <body>
-    <!----ШАПКА САЙТА------>
     <header class="header">
         <div class="container">
-            <div class="header__row">
-            <a href="#" class="header__logo"><img src="/images/icons/Group.svg" alt="Ремком Сервис"></a>
-            <nav class="header__nav">
-                <ul class="header__list">
-                    <li><a href="/">Главная</a></li>
-                    <li><a href="/pages/service.html">Услуги</a></li>
-                    <li><a href="/pages/objects.html">Объекты</a></li>
-                    <li><a href="/pages/equipment.html">Оборудования</a></li>
-                    <li><a href="/pages/news.html">Новости</a></li>
+        <div class="header__header-top header-top">
+            <div class="header-top__burger burger">
+                <input id="burger__toggle" type="checkbox" />
+                <label class="burger__btn" for="burger__toggle">
+                    <span></span>
+                </label>
+                <ul class="header__menu">
+                    <li class="header-bottom__menu"><a href="#">Акции</a></li>
+                    <li class="header-bottom__menu"><a href="#">Условия доставки</a></li>
+                    <li class="header-bottom__menu"><a href="#">Контакты</a></li>
                 </ul>
-            </nav>
-            <div class="header__contacts">
-                <a href="/pages/ours.html" class="header__links">О нас</a>
-                <a href="/pages/contacts.html" class="header__links">Контакты</a>
             </div>
+        <div class="header-top__logo logo">
+            <img src="/images/logo.svg" alt="">
         </div>
-        </div>
+        <div class="header-top__descr"><span>Мебель</span> для ванной комнаты</div>
+        <div class="header-top__right">
+            <div class="header-top__number">
+                <a href="tel:+77075476214">+7 (707)-547-62-14</a>
+            </div>
+            <div class="header-top__basket basket">
+                <div class="basket__icon">
+                    <img src="/images/basket.svg" alt="">
+                    <h5>2</h5>
+                </div>
+            </div>
+            </div>
+    </div>
+    <hr>
+    <div class="header__header-bottom header-bottom">
+        <nav class="nav">
+            <ul class="header__menu">
+                <li class="header-bottom__menu"><a href="catalog.html">Акции</a></li>
+                <li class="header-bottom__menu"><a href="#">Условия доставки</a></li>
+                <li class="header-bottom__menu"><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <img src="/images/background.png" class="background">
+    </div>
+</div>
+        .
     </header>
-    <!-----СЛАЙДЕР--------->
-    <div class="carousel">
+
+    <section class="best-catalog">
         <div class="container">
-         <div class="carousel__inner">
-                 <div><img class="carousel__image" src="/images/1.jpg" alt="">
-                 <div class="carousel__text">Garten- und <br>
-                     Landschaftsbau</div></div>
-                 <div><img class="carousel__image" src="/images/1.jpg" alt=""></div>
-                 <div><img class="carousel__image" src="/images/1.jpg" alt=""></div>
-                 <div><img class="carousel__image" src="/images/1.jpg" alt=""></div>
-         </div>
-    </div>
-    </div>
-    <!---ПРЕИМУЩЕСТВА------>
-    <section class="advantages">
-        <div class="container">
-            <h2 class="advantages__title title">Преимущества работы</h2>
-            <div class="advantages__row">
-                <div class="advantages__column">
-                    <div class="advantages__item item">
-                        <div class="item__row">
-                            <img src="/images/icons/language_24px.svg" alt="" class="item__icon lazy">
-                            <div class="item__descr">Die Pillmeier GmbH ist ein auf Garten- und Landschaftsbau spezialisiertes Unternehmen <br> in Abensberg.</div>
+            <h2 class="best-catalog__title">
+                лучший каталог товара
+            </h2>
+            <div class="best-catalog__row">
+                <div class="best-catalog__column">
+                    <a href="inside.html" class="best-catalog__card card">
+                        <div class="card__img">
+                            <img src="images/1.jpg" alt="">
                         </div>
+                        <h3 class="card__title">
+                            Свежие продукты
+                        </h3>
+                    </a>
+                </div>
+                <div class="best-catalog__column">
+                    <div class="best-catalog__card card">
+                        <div class="card__img">
+                            <img src="images/1.jpg" alt="">
+                        </div>
+                        <h3 class="card__title">
+                            Свежие продукты
+                        </h3>
                     </div>
                 </div>
-                <div class="advantages__column">
-                    <div class="advantages__item item">
-                        <div class="item__row">
-                            <img src="/images/icons/language_24px.svg" alt="" class="item__icon lazy">
-                            <div class="item__descr">Die Pillmeier GmbH ist ein auf Garten- und Landschaftsbau spezialisiertes Unternehmen <br> in Abensberg.</div>
+                <div class="best-catalog__column">
+                    <div class="best-catalog__card card">
+                        <div class="card__img">
+                            <img src="images/1.jpg" alt="">
                         </div>
+                        <h3 class="card__title">
+                            Свежие продукты
+                        </h3>
                     </div>
                 </div>
-                <div class="advantages__column">
-                    <div class="advantages__item item">
-                        <div class="item__row">
-                            <img src="/images/icons/language_24px.svg" alt="" class="item__icon lazy">
-                            <div class="item__descr">Die Pillmeier GmbH ist ein auf Garten- und Landschaftsbau spezialisiertes Unternehmen <br> in Abensberg.</div>
+                <div class="best-catalog__column">
+                    <div class="best-catalog__card card">
+                        <div class="card__img">
+                            <img src="images/1.jpg" alt="">
                         </div>
+                        <h3 class="card__title">
+                            Свежие продукты
+                        </h3>
+                    </div>
+                </div>
+                <div class="best-catalog__column">
+                    <div class="best-catalog__card card">
+                        <div class="card__img">
+                            <img src="images/1.jpg" alt="">
+                        </div>
+                        <h3 class="card__title">
+                            Свежие продукты
+                        </h3>
+                    </div>
+                </div>
+                <div class="best-catalog__column">
+                    <div class="best-catalog__card card">
+                        <div class="card__img">
+                            <img src="images/1.jpg" alt="">
+                        </div>
+                        <h3 class="card__title">
+                            Свежие продукты
+                        </h3>
+                    </div>
+                </div>
+                <div class="best-catalog__column">
+                    <div class="best-catalog__card card">
+                        <div class="card__img">
+                            <img src="images/1.jpg" alt="">
+                        </div>
+                        <h3 class="card__title">
+                            Свежие продукты
+                        </h3>
+                    </div>
+                </div>
+                <div class="best-catalog__column">
+                    <div class="best-catalog__card card">
+                        <div class="card__img">
+                            <img src="images/1.jpg" alt="">
+                        </div>
+                        <h3 class="card__title">
+                            Свежие продукты
+                        </h3>
+                    </div>
+                </div>
+                <div class="best-catalog__column">
+                    <div class="best-catalog__card card">
+                        <div class="card__img">
+                            <img src="images/1.jpg" alt="">
+                        </div>
+                        <h3 class="card__title">
+                            Свежие продукты
+                        </h3>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!------ОБЪЕКТЫ-------->
-    <section class="objects">
+    <section class="application">
         <div class="container">
-            <h2 class="objects__title title">Объекты</h2>
-            <div class="objects__row">
-                <div class="objects__column">
-                    <div class="objects__card card">
-                        <a href="#" class="card__row">
-                            <img src="/images/icons/square1.jpg" alt="" class="card__square">
-                            <div class="card__text">
-                                <div class="card__title">People Like Meghan McCain <br>
-                                    Are Why Americans Keep Dying</div>
-                                    <div class="card__descr">
-                                        Why we want to believeWhy we want to believe Why we want to believe Why we believe Why we want to believeWhy we...
-                                    </div>
-                                    <div class="card__date date">Sep 8 2020</div>
-                            </div>
-                        </a>
+            <div class="application__card">
+                <div class="application__row">
+                    <div class="application__img">
+                        <img src="images/square.jpg" alt="">
                     </div>
-                </div>
-                <div class="objects__column">
-                    <div class="objects__card card">
-                        <a href="#" class="card__row">
-                            <img src="/images/icons/square2.jpg" alt="" class="card__square">
-                            <div class="card__text">
-                                <div class="card__title">People Like Meghan McCain <br>
-                                    Are Why Americans Keep Dying</div>
-                                    <div class="card__descr">
-                                        Why we want to believeWhy we want to believe Why we want to believe Why we believe Why we want to believeWhy we...
-                                    </div>
-                                    <div class="card__date">Sep 8 2020</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="objects__column">
-                    <div class="objects__card card">
-                        <a href="#" class="card__row">
-                            <img src="/images/icons/square3.jpg" alt="" class="card__square">
-                            <div class="card__text">
-                                <div class="card__title">People Like Meghan McCain <br>
-                                    Are Why Americans Keep Dying</div>
-                                    <div class="card__descr">
-                                        Why we want to believeWhy we want to believe Why we want to believe Why we believe Why we want to believeWhy we...
-                                    </div>
-                                    <div class="card__date">Sep 8 2020</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="objects__column">
-                    <div class="objects__card card">
-                        <a href="#" class="card__row">
-                            <img src="/images/icons/square1.jpg" alt="" class="card__square">
-                            <div class="card__text">
-                                <div class="card__title">People Like Meghan McCain <br>
-                                    Are Why Americans Keep Dying</div>
-                                    <div class="card__descr">
-                                        Why we want to believeWhy we want to believe Why we want to believe Why we believe Why we want to believeWhy we...
-                                    </div>
-                                    <div class="card__date">Sep 8 2020</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <a href="#" class="all">Смотреть все</a>
-        </div>
-    </section>
-    <!------НОВОСТИ-------->
-    <section class="news">
-        <div class="container">
-            <h2 class="news__title title">Новости</h2>
-            <div class="news__row">
-                <div class="news__column">
-                    <div class="news__post post">
-                        <a href="#" class="post__row">
-                            <div class="post__image">
-                                <img src="/images/Rectangle 5-1.png" class="lazy" alt="">
-                            </div>
-                            <div class="post__content">
-                                <div class="post__title">People Like Meghan McCain 
-                                    Are Why Americans Keep Dying</div>
-                                    <div class="post__descr">Why we want to believeWhy we want to believeWhy we want to believeWhy we believeWhy we want to believeWhy we...</div>
-                                    <div class="post__date date">Sep 8 2020</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="news__column">
-                    <div class="news__post post">
-                        <a href="#" class="post__row">
-                            <div class="post__image">
-                                <img src="/images/Rectangle 5-2.png" class="lazy" alt="">
-                            </div>
-                            <div class="post__content">
-                                <div class="post__title">People Like Meghan McCain 
-                                    Are Why Americans Keep Dying</div>
-                                    <div class="post__descr">Why we want to believeWhy we want to believeWhy we want to believeWhy we believeWhy we want to believeWhy we...</div>
-                                    <div class="post__date date">Sep 8 2020</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="news__column">
-                    <div class="news__post post">
-                        <a href="#" class="post__row">
-                            <div class="post__image">
-                                <img src="/images/Rectangle 5-3.png" class="lazy" alt="">
-                            </div>
-                            <div class="post__content">
-                                <div class="post__title">People Like Meghan McCain 
-                                    Are Why Americans Keep Dying</div>
-                                    <div class="post__descr">Why we want to believeWhy we want to believeWhy we want to believeWhy we believeWhy we want to believeWhy we...</div>
-                                    <div class="post__date date">Sep 8 2020</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <a href="#" class="all">Смотреть все</a>
-        </div>
-    </section>
-    <!------ОТЗЫВЫ--------->
-    <section class="reviews">
-        <div class="container">
-            <h2 class="reviews__title title">Отзывы</h2>
-            <div class="reviews__container">
-            <div class="reviews__row">
-                <div class="reviews__column">
-                    <div class="reviews__cert cert">
-                        <div class="cert__row">
-                            <div class="cert__title">Сертификат</div>
-                            <div class="cert__descr">
-                                <p>Основное отличие интерфейса поисковой выдачи от остальных — людям некогда всматриваться в него и оценивать внешний вид.</p>
-                                <p>Поведение человека здесь можно сравнить с поведением в аэропорту или на вокзале: нужно найти свой гейт или платформу, и взгляд сам находит указатель, сканирует его, выхватывает полезную информацию — и вот вы уже идёте по длинному коридору и даже не помните, какого цвета был тот самый указатель.</p>
-                                <p>Основное отличие интерфейса <br> поисковой выдачи от остальных него и оценивать внешний вид.</p>
-                            </div>
-                            <div class="cert__footer">
-                                <div class="cert__name">М.П.</div>
-                                <div class="cert__date date">Sep 8 2020</div>
-                            </div>
+                    <div class="application__main">
+                        <div class="application__title">
+                            Оставьте заявку мы обязательно вам перезвоним
                         </div>
-                    </div>
-                </div>
-                <div class="reviews__column">
-                    <div class="reviews__cert cert">
-                        <div class="cert__row">
-                            <div class="cert__title">Сертификат</div>
-                            <div class="cert__descr">
-                                <p>Основное отличие интерфейса поисковой выдачи от остальных — людям некогда всматриваться в него и оценивать внешний вид.</p>
-                                <p>Поведение человека здесь можно сравнить с поведением в аэропорту или на вокзале: нужно найти свой гейт или платформу, и взгляд сам находит указатель, сканирует его, выхватывает полезную информацию — и вот вы уже идёте по длинному коридору и даже не помните, какого цвета был тот самый указатель.</p>
-                                <p>Основное отличие интерфейса <br> поисковой выдачи от остальных него и оценивать внешний вид.</p>
-                            </div>
-                            <div class="cert__footer">
-                                <div class="cert__name">М.П.</div>
-                                <div class="cert__date date">Sep 8 2020</div>
-                            </div>
+                        <div class="application__subtitle">
+                            Наши менеджеры свяжутся с вами в ближайшее время
                         </div>
+                        <form class="application__form" action="#">
+                            <input type="tel" name="telephone" minlength="12" maxlength="12" id="telephone" placeholder="Введите ваш номер телефона">
+                            <button>Отправить</button>
+                        </form>
                     </div>
                 </div>
-                <div class="reviews__column">
-                    <div class="reviews__cert cert">
-                        <div class="cert__row">
-                            <div class="cert__title">Сертификат</div>
-                            <div class="cert__descr">
-                                <p>Основное отличие интерфейса поисковой выдачи от остальных — людям некогда всматриваться в него и оценивать внешний вид.</p>
-                                <p>Поведение человека здесь можно сравнить с поведением в аэропорту или на вокзале: нужно найти свой гейт или платформу, и взгляд сам находит указатель, сканирует его, выхватывает полезную информацию — и вот вы уже идёте по длинному коридору и даже не помните, какого цвета был тот самый указатель.</p>
-                                <p>Основное отличие интерфейса <br> поисковой выдачи от остальных него и оценивать внешний вид.</p>
-                            </div>
-                            <div class="cert__footer">
-                                <div class="cert__name">М.П.</div>
-                                <div class="cert__date date">Sep 8 2020</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             </div>
         </div>
     </section>
-    <!------ФУТЕР---------->
+    <section class="best">
+        <div class="container">
+            <h2 class="best__title title">
+                лучшие Товары
+            </h2>
+            <div class="best__row">
+                <div class="best__column">
+                    <div class="best__item item">
+                        <div class="item__img">
+                            <img src="images/item.jpg" alt="">
+                        </div>
+                        <div class="item__title">
+                            Наушники Elari NanoPods BT черный
+                        </div>
+                        <div class="item__available">
+                            Есть на складе
+                        </div>
+                        <div class="item__price">
+                            4500 тг.
+                        </div>
+                        <div class="item__buttons">
+                            <button class="item__more">
+                                Подробнее
+                            </button>
+                            <button class="item__buy">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="best__column">
+                    <div class="best__item item">
+                        <div class="item__img">
+                            <img src="images/item.jpg" alt="">
+                        </div>
+                        <div class="item__title">
+                            Наушники Elari NanoPods BT черный
+                        </div>
+                        <div class="item__available">
+                            Есть на складе
+                        </div>
+                        <div class="item__price">
+                            4500 тг.
+                        </div>
+                        <div class="item__buttons">
+                            <button class="item__more">
+                                Подробнее
+                            </button>
+                            <button class="item__buy">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="best__column">
+                    <div class="best__item item">
+                        <div class="item__img">
+                            <img src="images/item.jpg" alt="">
+                        </div>
+                        <div class="item__title">
+                            Наушники Elari NanoPods BT черный
+                        </div>
+                        <div class="item__available">
+                            Есть на складе
+                        </div>
+                        <div class="item__price">
+                            4500 тг.
+                        </div>
+                        <div class="item__buttons">
+                            <button class="item__more">
+                                Подробнее
+                            </button>
+                            <button class="item__buy">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="best__column">
+                    <div class="best__item item">
+                        <div class="item__img">
+                            <img src="images/item.jpg" alt="">
+                        </div>
+                        <div class="item__title">
+                            Наушники Elari NanoPods BT черный
+                        </div>
+                        <div class="item__available">
+                            Есть на складе
+                        </div>
+                        <div class="item__price">
+                            4500 тг.
+                        </div>
+                        <div class="item__buttons">
+                            <button class="item__more">
+                                Подробнее
+                            </button>
+                            <button class="item__buy">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="best__column">
+                    <div class="best__item item">
+                        <div class="item__img">
+                            <img src="images/item.jpg" alt="">
+                            <div class="item__new"><span>Новинка</span></div>
+                        </div>
+                        <div class="item__title">
+                            Наушники Elari NanoPods BT черный
+                        </div>
+                        <div class="item__available">
+                            Есть на складе
+                        </div>
+                        <div class="item__price">
+                            4500 тг.
+                        </div>
+                        <div class="item__buttons">
+                            <button class="item__more">
+                                Подробнее
+                            </button>
+                            <button class="item__buy">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="best__column">
+                    <div class="best__item item">
+                        <div class="item__img">
+                            <img src="images/item.jpg" alt="">
+                        </div>
+                        <div class="item__title">
+                            Наушники Elari NanoPods BT черный
+                        </div>
+                        <div class="item__unavailable">
+                            Нет в наличии
+                        </div>
+                        <div class="item__price">
+                            4500 тг.
+                        </div>
+                        <div class="item__buttons">
+                            <button class="item__more">
+                                Подробнее
+                            </button>
+                            <button disabled class="item__buy">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="all">Показать все</a>
+        </div>
+    </section>
     <footer class="footer">
         <div class="container">
-            <div class="footer__row">
-                <div class="footer__logo">
-                    <img src="/images/icons/Group.svg" alt="">
+            <div class="footer__main">
+                <div class="footer__up">
+                    <i class="icon-arrow-up"></i>
                 </div>
-                <div class="footer__wrapper">
                 <ul class="footer__menu">
-                    <li><a href="/pages/ours.html" class="footer__link">О нас</a></li>
-                    <li><a href="/pages/objects.html" class="footer__link">Объекты</a></li>
-                    <li><a href="/pages/equipment.html" class="footer__link">Оборудования</a></li>
-                    <li><a href="/pages/news.html" class="footer__link">Новости</a></li>
-                    <li><a href="/pages/services.html" class="footer__link">Услуги</a></li>
-                    <li><a href="#" class="footer__link">Отзывы</a></li>
+                    <li><a href="#" class="footer__link">Доставка и оплата</a></li>
+                    <li><a href="#" class="footer__link">Условия возврата</a></li>
+                    <li><a href="#" class="footer__link">Контакты</a></li>
                 </ul>
-                <div class="footer__bottom">
-                    <div class="footer__item"><p>РемКом Сервис</p> Казахстан, г. Алматы. Ул. Суюнбая 43,</div>
-                    <div class="footer__item"><a href="tel:+77021750220">Telephone: +7 702 175 0220</a></div>
-                    <div class="footer__item">E-mail: remcom@gmail.com</div>
-                    </div>
+                <div class="footer__social">
+                    <a href="#"><i class="icon-vk"></i></a>
+                    <a href="#"><i class="icon-instagram"></i></a>
+                    <a href="#"><i class="icon-facebook"></i></a>
+                </div>
+                <div class="footer__copyright">
+                    © 2007-2020 ТОО «Leo studio» (Казахстан)
                 </div>
             </div>
         </div>
     </footer>
-    <script src="/js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
