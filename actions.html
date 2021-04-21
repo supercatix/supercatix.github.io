@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Главная страница</title>
     <link rel="stylesheet" href="/css/main.min.css">
 </head>
@@ -38,73 +38,16 @@
     </div>
 </div>
     </header>
-    <div class="banner-second">
-        <div class="container">
-            <div class="banner-second__img">
-                <img src="images/banner.png" alt="">
-                <div class="banner-second-texts">
-                    <h1 class="banner-second__title">Тумбочки для ванны</h1>
-                    <p class="banner-second__descr">
-                        Для внесения новизны и уюта в свою ванную комнату
-                    </p>
-            </div>
-    </div>
 </div>
     </div>
     <div class="content">
-    <div class="filter">
-        <h2 class="filter__title">Тумбочки</h2>
-        <select name="order" id="order">
-            <option>Упорядочить по...</option>
-            <option value="">Цене (по убыванию)</option>
-            <option value="">Цене (по возрастанию)</option>
-            <option value="">Дате (по добавлению в каталог)</option>
-        </select>
-        <h2 class="filter__subtitle">Цена <span>(тг.)</span></h2>
-        <div class="pricing">
-            <label for="pricing__suffix">от</label>
-            <input type="text" class="js-input-from pricing__input" value="0">
-            <label for="pricing__suffix">от</label>
-            <input type="text" class="js-input-to pricing__input" value="0">
-            <div class="range-slider">
-                <input type="text" class="js-range-slider" value="" />
-            </div>
-        </div>
-        <div class="color__form">
-        <h2 class="filter__subtitle">Цвет</h2>
-       <div class="checkboxed"> <input type="checkbox" class="checkbox" name="option1" value="a1"> <span class="filter__color">Белый</span> <span>(5)</span><Br></div>
-        <div class="checkboxed"> <input type="checkbox" class="checkbox" name="option1" value="a1"> <span class="filter__color">Черный</span> <span>(50)</span><Br></div>
-            <div class="checkboxed"> <input type="checkbox" class="checkbox" name="option1" value="a1"> <span class="filter__color">Серый</span> <span>(25)</span><Br></div>
-                <div class="checkboxed"> <input type="checkbox" class="checkbox" name="option1" value="a1"> <span class="filter__color">Синий</span> <span>(13)</span><Br></div>
-            <details>
-                <summary>Открыть ещё</summary>
-                <div class="checkboxed"> <input type="checkbox" class="checkbox" name="option1" value="a1"> <span class="filter__color">Белый</span> <span>(5)</span><Br></div>
-                    <div class="checkboxed"> <input type="checkbox" class="checkbox" name="option1" value="a1"> <span class="filter__color">Черный</span> <span>(50)</span><Br></div>
-                        <div class="checkboxed"> <input type="checkbox" class="checkbox" name="option1" value="a1"> <span class="filter__color">Серый</span> <span>(25)</span><Br></div>
-                            <div class="checkboxed"> <input type="checkbox" class="checkbox" name="option1" value="a1"> <span class="filter__color">Синий</span> <span>(13)</span><Br></div>
-            </details>
-            <h2 class="filter__subtitle">
-                Размер
-            </h2>
-
-            <div class="checkboxed"> <input type="checkbox" class="checkbox" name="option1" value="a1"> <span class="filter__color">50*50</span> <span>(5)</span><Br></div>
-                <div class="checkboxed"> <input type="checkbox" class="checkbox" name="option1" value="a1"> <span class="filter__color">70*30</span> <span>(50)</span><Br></div>
-                    <div class="checkboxed"> <input type="checkbox" class="checkbox" name="option1" value="a1"> <span class="filter__color">90*10</span> <span>(25)</span><Br></div>
-                        <div class="checkboxed"> <input type="checkbox" class="checkbox" name="option1" value="a1"> <span class="filter__color">80*20</span> <span>(13)</span><Br></div>
-                    <details>
-                        <summary>Открыть ещё</summary>
-                        <div class="checkboxed"> <input type="checkbox" class="checkbox" name="option1" value="a1"> <span class="filter__color">50*50</span> <span>(5)</span><Br></div>
-                            <div class="checkboxed"> <input type="checkbox" class="checkbox" name="option1" value="a1"> <span class="filter__color">70*30</span> <span>(50)</span><Br></div>
-                                <div class="checkboxed"> <input type="checkbox" class="checkbox" name="option1" value="a1"> <span class="filter__color">90*10</span> <span>(25)</span><Br></div>
-                    </details>
-    </div>
-</div>
-
-    <div class="catalog-items">
+    <div class="catalog-items" style="background-color: transparent;">
+        <h1>Акции</h1>
         <div class="catalog-items__row">
             <div class="catalog-items__column">
                 <div class="best__item item">
                     <div class="item__img">
+                        <div class="condition-img">Новинка</div>
                         <img src="images/item.jpg" alt="">
                     </div>
                     <div class="item__title">
