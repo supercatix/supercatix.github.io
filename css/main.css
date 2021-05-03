@@ -2577,6 +2577,63 @@ summary {
   .main-item__description-full {
     padding-bottom: 25px;
   }
+  .best-catalog__row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .best-catalog__column {
+    display: initial;
+  }
+  .container {
+    padding: 0 30px;
+  }
+  .best__column {
+    padding: 0;
+  }
+  .application__card {
+    padding: 39px 15px;
+  }
+  .item__buy {
+    width: 120px;
+  }
+  .item__more {
+    width: 120px;
+  }
+  .item__title {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .card__title {
+    padding: 20px;
+  }
+  .best__column {
+    display: initial;
+    padding-bottom: 0;
+  }
+  .footer__up {
+    left: 26px;
+  }
+  .footer__copyright {
+    text-align: center;
+  }
+  .header-bottom__menu {
+    text-align: center;
+  }
+  .item__buttons {
+    padding: 0px;
+    padding-bottom: 26px;
+  }
+  .best__row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .catalog-items .item {
+    padding: 0;
+  }
 }
 
 .cart {

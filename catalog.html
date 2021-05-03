@@ -2,14 +2,26 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Главная страница</title>
-    <link rel="stylesheet" href="/css/main.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
         <div class="header__header-top header-top">
+            <div class="header-top__burger burger">
+                <button class="hamburger hamburger--collapse" type="button">
+                    <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                    </span>
+                  </button>  
+                <ul class="header__menu">
+                    <li class="header-bottom__menu"><a href="promotions.html">Акции</a></li>
+                    <li class="header-bottom__menu"><a href="conditions.html">Условия доставки</a></li>
+                    <li class="header-bottom__menu"><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
         <div class="header-top__logo logo">
             <img src="/images/logo.svg" alt="">
         </div>
@@ -18,21 +30,21 @@
             <div class="header-top__number">
                 <a href="tel:+77075476214">+7 (707)-547-62-14</a>
             </div>
-            <div class="header-top__basket basket">
+            <a href="cart.html" class="header-top__basket basket">
                 <div class="basket__icon">
                     <img src="/images/basket.svg" alt="">
                     <h5>2</h5>
                 </div>
-            </div>
+            </a>
             </div>
     </div>
     <hr>
     <div class="header__header-bottom header-bottom">
         <nav class="nav">
-            <ul>
-                <li class="header-bottom__menu"><a href="#">Акции</a></li>
-                <li class="header-bottom__menu"><a href="#">Условия доставки</a></li>
-                <li class="header-bottom__menu"><a href="#">Контакты</a></li>
+            <ul class="header__menu">
+                <li class="header-bottom__menu"><a href="promotions.html">Акции</a></li>
+                <li class="header-bottom__menu"><a href="conditions.html">Условия доставки</a></li>
+                <li class="header-bottom__menu"><a href="contacts.html">Контакты</a></li>
             </ul>
         </nav>
     </div>
@@ -320,8 +332,8 @@
             </div>
         </div>
     </footer>
-    <script src="js/dev/jquery-3.5.1.min.js"></script>
-    <script src="js/dev/ion.rangeSlider.js"></script>
-    <script src="js/dev/script.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/ion.rangeSlider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
