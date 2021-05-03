@@ -2619,6 +2619,7 @@ summary {
   }
   .header-bottom__menu {
     text-align: center;
+    margin: 0 5px;
   }
   .item__buttons {
     padding: 0px;
